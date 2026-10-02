@@ -8,7 +8,7 @@ type Props = {
   navigation: NativeStackNavigationProp<RootStackParamList, 'Home'>;
 };
 
-type ToolRoute = 'KanjiDecks' | 'Reading' | 'OldVocab' | 'KanjiGame' | 'GrammarSearch';
+type ToolRoute = 'KanjiDecks' | 'Reading' | 'OldVocab' | 'KanjiGame' | 'GrammarSearch' | 'BookStorage';
 
 const TOOLS: {
   title: string;
@@ -51,6 +51,13 @@ const TOOLS: {
     emoji: '🎯',
     tint: colors.pink,
     route: 'KanjiGame',
+  },
+  {
+    title: 'Book storage',
+    description: 'Open a downloadable library of JLPT books, old papers, and study resources.',
+    emoji: '📚',
+    tint: colors.success,
+    route: 'BookStorage',
   },
 ];
 

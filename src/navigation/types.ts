@@ -9,6 +9,7 @@ export type RootStackParamList = {
   KanjiGame: undefined;
   About: undefined;
   Website: undefined;
+  BookStorage: undefined;
   JLPTWebView: undefined;
   GrammarSearch: undefined;
   Search: undefined;
