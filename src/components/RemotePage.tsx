@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { useCallback, useEffect, useState } from 'react';
 import {
   ActivityIndicator,
   Linking,
@@ -22,11 +22,13 @@ type Props = {
 export default function RemotePage({ url, title, description }: Props) {
   const [reloadKey, setReloadKey] = useState(0);
   const [isLoading, setIsLoading] = useState(true);
+  const [networkChecked, setNetworkChecked] = useState(Platform.OS !== 'web');
   const [error, setError] = useState<string | null>(null);
 
   const retry = useCallback(() => {
     setError(null);
     setIsLoading(true);
+    setNetworkChecked(Platform.OS !== 'web');
     setReloadKey((key) => key + 1);
   }, []);
 
@@ -38,15 +40,46 @@ export default function RemotePage({ url, title, description }: Props) {
 
   const handleNativeError = useCallback((event: WebViewErrorEvent) => {
     setIsLoading(false);
-    setError(event.nativeEvent.description || 'The online page could not be loaded.');
+    setError('We could not reach the mock exam website. Check your internet connection, connect to a VPN if your network blocks the site, then try again.');
   }, []);
 
   const handleHttpError = useCallback((event: WebViewHttpErrorEvent) => {
     if (event.nativeEvent.statusCode >= 400) {
       setIsLoading(false);
-      setError(`The website returned an error (${event.nativeEvent.statusCode}).`);
+      setError(`The website returned an error (${event.nativeEvent.statusCode}). Check your internet connection or VPN and try again.`);
     }
   }, []);
+
+  useEffect(() => {
+    if (Platform.OS !== 'web') return undefined;
+    const controller = new AbortController();
+    let active = true;
+    setIsLoading(true);
+    setNetworkChecked(false);
+    setError(null);
+    const timeout = setTimeout(() => controller.abort(), 10000);
+
+    fetch(url, { method: 'GET', mode: 'no-cors', cache: 'no-store', signal: controller.signal })
+      .then(() => {
+        if (active) {
+          setNetworkChecked(true);
+          setIsLoading(false);
+        }
+      })
+      .catch(() => {
+        if (active) {
+          setIsLoading(false);
+          setError('We could not reach the mock exam website. Connect to the internet, enable a VPN if needed, and try again.');
+        }
+      })
+      .finally(() => clearTimeout(timeout));
+
+    return () => {
+      active = false;
+      clearTimeout(timeout);
+      controller.abort();
+    };
+  }, [url, reloadKey]);
 
   if (error) {
     return (
@@ -55,7 +88,7 @@ export default function RemotePage({ url, title, description }: Props) {
           <View style={styles.iconCircle}>
             <WifiOff size={24} color={colors.primary} />
           </View>
-          <Text style={styles.title}>{title} is online</Text>
+          <Text style={styles.title}>Internet connection needed</Text>
           <Text style={styles.description}>{description}</Text>
           <Text style={styles.errorText}>{error}</Text>
           <View style={styles.actions}>
@@ -76,16 +109,17 @@ export default function RemotePage({ url, title, description }: Props) {
   if (Platform.OS === 'web') {
     return (
       <View style={styles.container}>
-        {isLoading ? <LoadingState title={title} /> : null}
-        <iframe
-          key={reloadKey}
-          src={url}
-          style={{ ...styles.iframe, ...(isLoading ? styles.hidden : {}) } as any}
-          title={title}
-          frameBorder="0"
-          allow="fullscreen"
-          onLoad={() => setIsLoading(false)}
-        />
+        {!networkChecked || isLoading ? <LoadingState title={title} /> : null}
+        {networkChecked ? (
+          <iframe
+            key={reloadKey}
+            src={url}
+            style={styles.iframe as any}
+            title={title}
+            frameBorder="0"
+            allow="fullscreen"
+          />
+        ) : null}
       </View>
     );
   }
