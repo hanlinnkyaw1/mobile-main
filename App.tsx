@@ -21,9 +21,16 @@ import BookStorageScreen from './src/screens/BookStorageScreen';
 import SearchScreen from './src/screens/SearchScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 import { colors } from './src/theme';
+import { StudyProgressProvider, useStudyProgress } from './src/progress/StudyProgressContext';
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 const Tab = createBottomTabNavigator<MainTabParamList>();
+
+function getActiveRouteName(state: any): string | undefined {
+  const route = state?.routes?.[state.index ?? 0];
+  if (route?.state) return getActiveRouteName(route.state);
+  return route?.name;
+}
 
 function TabNavigator() {
   return (
@@ -79,10 +86,14 @@ function TabNavigator() {
   );
 }
 
-export default function App() {
+function AppContent() {
+  const { startStudySession } = useStudyProgress();
+
   return (
     <SafeAreaProvider>
-      <NavigationContainer>
+      <NavigationContainer
+        onStateChange={(state) => startStudySession(getActiveRouteName(state) ?? '')}
+      >
         <StatusBar style="dark" />
         <Stack.Navigator
           initialRouteName="MainTabs"
@@ -114,5 +125,13 @@ export default function App() {
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
+  );
+}
+
+export default function App() {
+  return (
+    <StudyProgressProvider>
+      <AppContent />
+    </StudyProgressProvider>
   );
 }

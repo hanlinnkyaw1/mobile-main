@@ -11,6 +11,7 @@ import {
 import { Pressable, ScrollView, StyleSheet, Text, useWindowDimensions, View } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import type { RootStackParamList } from '../navigation/types';
+import { useStudyProgress } from '../progress/StudyProgressContext';
 import { colors, radius, shadows, spacing, type } from '../theme';
 
 type Props = {
@@ -27,8 +28,6 @@ type Tool = {
   icon: typeof BookOpen;
 };
 
-const DAILY_PROGRESS = 65;
-const WEEK_TREND = [0.3, 0.5, 0.38, 0.55, 0.45, 0.8, 0.9];
 const NAVY = '#27306B';
 const SUN = '#FF6F59';
 const CHART = '#2BB59B';
@@ -154,6 +153,8 @@ export default function HomeScreen({ navigation }: Props) {
   const { width } = useWindowDimensions();
   const compact = width < 640;
   const phone = width < 420;
+  const { progressPercent, todaySeconds, todayMinutes, remainingMinutes, streakDays, weekMinutes } = useStudyProgress();
+  const weekTrend = weekMinutes.map((minutes) => Math.min(1, minutes / 30));
 
   return (
     <SafeAreaView style={styles.safe} edges={['top', 'bottom', 'left', 'right']}>
@@ -188,16 +189,16 @@ export default function HomeScreen({ navigation }: Props) {
 
         <View style={styles.sectionHeading}>
           <View><Text style={styles.sectionTitle}>Your progress</Text><Text style={styles.sectionSub}>Keep the streak alive</Text></View>
-          <View style={styles.streak}><Flame size={15} color={SUN} fill={SUN} /><Text style={styles.streakText}>7 day streak</Text></View>
+          <View style={styles.streak}><Flame size={15} color={SUN} fill={SUN} /><Text style={styles.streakText}>{streakDays > 0 ? `${streakDays} day streak` : 'Start your streak'}</Text></View>
         </View>
         <View style={[styles.progressCard, shadows.md, compact && styles.progressCardCompact]}>
-          <ProgressRing percent={DAILY_PROGRESS} size={phone ? 68 : 76} />
+          <ProgressRing percent={progressPercent} size={phone ? 68 : 76} />
           <View style={styles.progressBody}>
             <Text style={styles.progressTitle}>Daily goal</Text>
-            <Text style={styles.progressValue}>You&apos;re making progress</Text>
-            <Text style={styles.progressSub}>35 minutes left to reach today&apos;s goal.</Text>
+            <Text style={styles.progressValue}>{todaySeconds > 0 && todayMinutes === 0 ? '<1' : todayMinutes} of 30 minutes</Text>
+            <Text style={styles.progressSub}>{remainingMinutes > 0 ? `${remainingMinutes} minutes left to reach today's goal.` : 'Daily goal complete — great work!'}</Text>
           </View>
-          <Sparkline values={WEEK_TREND} width={phone ? 76 : 96} height={phone ? 52 : 60} />
+          <Sparkline values={weekTrend} width={phone ? 76 : 96} height={phone ? 52 : 60} />
         </View>
 
         <View style={styles.sectionHeading}>
