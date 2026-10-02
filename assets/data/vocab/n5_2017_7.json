@@ -1,0 +1,810 @@
+[
+  {
+    "word": "先週",
+    "reading": "せんしゅう",
+    "meaningEN": "last week",
+    "meaningMM": "ပြီးခဲ့သည့်အပတ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "あと",
+    "reading": "あと",
+    "meaningEN": "after",
+    "meaningMM": "နောက်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "山",
+    "reading": "やま",
+    "meaningEN": "mountain",
+    "meaningMM": "တောင်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "多い",
+    "reading": "おおい",
+    "meaningEN": "many",
+    "meaningMM": "များသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "学校",
+    "reading": "がっこう",
+    "meaningEN": "school",
+    "meaningMM": "ကျောင်း",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "六本",
+    "reading": "ろっぽん",
+    "meaningEN": "six (for long, thin objects)",
+    "meaningMM": "ခြောက်ခု (အရှည်၊ ပါးလွှာသောအရာများအတွက်)",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "新聞",
+    "reading": "しんぶん",
+    "meaningEN": "newspaper",
+    "meaningMM": "သတင်းစာ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "安い",
+    "reading": "やすい",
+    "meaningEN": "cheap",
+    "meaningMM": "စျေးပေါသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "外",
+    "reading": "そと",
+    "meaningEN": "outside",
+    "meaningMM": "အပြင်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "子ども",
+    "reading": "こども",
+    "meaningEN": "child",
+    "meaningMM": "ကလေး",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "シャワー",
+    "reading": "シャワー",
+    "meaningEN": "shower",
+    "meaningMM": "ရေချိုးခန်း",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "車",
+    "reading": "くるま",
+    "meaningEN": "car",
+    "meaningMM": "ကား",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "千円",
+    "reading": "せんえん",
+    "meaningEN": "1000 yen",
+    "meaningMM": "ယန်း ၁၀၀၀",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "半分",
+    "reading": "はんぶん",
+    "meaningEN": "half",
+    "meaningMM": "တစ်ဝက်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "同じ",
+    "reading": "おなじ",
+    "meaningEN": "same",
+    "meaningMM": "တူညီသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "アパート",
+    "reading": "アパート",
+    "meaningEN": "apartment",
+    "meaningMM": "တိုက်ခန်း",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "じょうずに",
+    "reading": "じょうずに",
+    "meaningEN": "skillfully",
+    "meaningMM": "ကျွမ်းကျင်စွာ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "きれい",
+    "reading": "きれい",
+    "meaningEN": "clean, beautiful",
+    "meaningMM": "သန့်ရှင်းသော၊ လှပသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "メートル",
+    "reading": "メートル",
+    "meaningEN": "meter",
+    "meaningMM": "မီတာ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "地図",
+    "reading": "ちず",
+    "meaningEN": "map",
+    "meaningMM": "မြေပုံ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "雪",
+    "reading": "ゆき",
+    "meaningEN": "snow",
+    "meaningMM": "နှင်း",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "四つ",
+    "reading": "よっつ",
+    "meaningEN": "four (general counter)",
+    "meaningMM": "လေးခု",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "下",
+    "reading": "した",
+    "meaningEN": "under, below",
+    "meaningMM": "အောက်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "出口",
+    "reading": "でぐち",
+    "meaningEN": "exit",
+    "meaningMM": "ထွက်ပေါက်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "入口",
+    "reading": "いりぐち",
+    "meaningEN": "entrance",
+    "meaningMM": "ဝင်ပေါက်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "あちら",
+    "reading": "あちら",
+    "meaningEN": "over there",
+    "meaningMM": "ဟိုဘက်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "毎晩",
+    "reading": "まいばん",
+    "meaningEN": "every evening",
+    "meaningMM": "ညတိုင်း",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "家族",
+    "reading": "かぞく",
+    "meaningEN": "family",
+    "meaningMM": "မိသားစု",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "電話します",
+    "reading": "でんわします",
+    "meaningEN": "make a phone call",
+    "meaningMM": "ဖုန်းခေါ်သည်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "有名",
+    "reading": "ゆうめい",
+    "meaningEN": "famous",
+    "meaningMM": "နာမည်ကြီးသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "建物",
+    "reading": "たてもの",
+    "meaningEN": "building",
+    "meaningMM": "အဆောက်အဦး",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "ビル",
+    "reading": "ビル",
+    "meaningEN": "building (loanword)",
+    "meaningMM": "အဆောက်အဦး",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "映画",
+    "reading": "えいが",
+    "meaningEN": "movie",
+    "meaningMM": "ရုပ်ရှင်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "つまらない",
+    "reading": "つまらない",
+    "meaningEN": "boring",
+    "meaningMM": "စိတ်မဝင်စားဖွယ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "誕生日",
+    "reading": "たんじょうび",
+    "meaningEN": "birthday",
+    "meaningMM": "မွေးနေ့",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "生まれる",
+    "reading": "うまれる",
+    "meaningEN": "be born",
+    "meaningMM": "မွေးဖွားသည်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "二年前",
+    "reading": "にねんまえ",
+    "meaningEN": "two years ago",
+    "meaningMM": "နှစ်နှစ်အကြာ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "一昨年",
+    "reading": "おととし",
+    "meaningEN": "year before last",
+    "meaningMM": "လွန်ခဲ့သည့်နှစ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "次",
+    "reading": "つぎ",
+    "meaningEN": "next",
+    "meaningMM": "နောက်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "後ろ",
+    "reading": "うしろ",
+    "meaningEN": "back, behind",
+    "meaningMM": "နောက်ကျော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "前",
+    "reading": "まえ",
+    "meaningEN": "front, before",
+    "meaningMM": "ရှေ့",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "川",
+    "reading": "かわ",
+    "meaningEN": "river",
+    "meaningMM": "မြစ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "池",
+    "reading": "いけ",
+    "meaningEN": "pond",
+    "meaningMM": "ကန်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "海",
+    "reading": "うみ",
+    "meaningEN": "sea, ocean",
+    "meaningMM": "ပင်လယ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "少ない",
+    "reading": "すくない",
+    "meaningEN": "few, a little",
+    "meaningMM": "နည်းသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "狭い",
+    "reading": "せまい",
+    "meaningEN": "narrow",
+    "meaningMM": "ကျဉ်းမြောင်းသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "広い",
+    "reading": "ひろい",
+    "meaningEN": "wide, spacious",
+    "meaningMM": "ကျယ်ဝန်းသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "鉛筆",
+    "reading": "えんぴつ",
+    "meaningEN": "pencil",
+    "meaningMM": "ခဲတံ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "カメラ",
+    "reading": "カメラ",
+    "meaningEN": "camera",
+    "meaningMM": "ကင်မရာ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "高い",
+    "reading": "たかい",
+    "meaningEN": "expensive, high",
+    "meaningMM": "စျေးကြီးသော၊ မြင့်သော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "重い",
+    "reading": "おもい",
+    "meaningEN": "heavy",
+    "meaningMM": "လေးသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "軽い",
+    "reading": "かるい",
+    "meaningEN": "light",
+    "meaningMM": "ပေါ့ပါးသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "傘",
+    "reading": "かさ",
+    "meaningEN": "umbrella",
+    "meaningMM": "ထီး",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "家",
+    "reading": "いえ",
+    "meaningEN": "house",
+    "meaningMM": "အိမ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "中",
+    "reading": "なか",
+    "meaningEN": "inside",
+    "meaningMM": "အတွင်း",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "庭",
+    "reading": "にわ",
+    "meaningEN": "garden",
+    "meaningMM": "ဥယျာဉ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "花",
+    "reading": "はな",
+    "meaningEN": "flower",
+    "meaningMM": "ပန်း",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "今朝",
+    "reading": "けさ",
+    "meaningEN": "this morning",
+    "meaningMM": "ဒီမနက်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "コーヒー",
+    "reading": "コーヒー",
+    "meaningEN": "coffee",
+    "meaningMM": "ကော်ဖီ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "新しい",
+    "reading": "あたらしい",
+    "meaningEN": "new",
+    "meaningMM": "အသစ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "宿題",
+    "reading": "しゅくだい",
+    "meaningEN": "homework",
+    "meaningMM": "အိမ်စာ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "昨日",
+    "reading": "きのう",
+    "meaningEN": "yesterday",
+    "meaningMM": "မနေ့က",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "妹",
+    "reading": "いもうと",
+    "meaningEN": "younger sister",
+    "meaningMM": "ညီမ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "服",
+    "reading": "ふく",
+    "meaningEN": "clothes",
+    "meaningMM": "အဝတ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "エレベーター",
+    "reading": "エレベーター",
+    "meaningEN": "elevator",
+    "meaningMM": "ဓာတ်လှေကား",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "プール",
+    "reading": "プール",
+    "meaningEN": "pool",
+    "meaningMM": "ရေကူးကန်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "エアコン",
+    "reading": "エアコン",
+    "meaningEN": "air conditioner",
+    "meaningMM": "လေအေးပေးစက်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "ギター",
+    "reading": "ギター",
+    "meaningEN": "guitar",
+    "meaningMM": "ဂစ်တာ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "歌います",
+    "reading": "うたいます",
+    "meaningEN": "sing",
+    "meaningMM": "သီဆိုသည်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "聞きます",
+    "reading": "ききます",
+    "meaningEN": "listen, ask, hear",
+    "meaningMM": "နားထောင်သည်၊ မေးသည်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "遊びます",
+    "reading": "あそびます",
+    "meaningEN": "play, enjoy oneself",
+    "meaningMM": "ကစားသည်၊ ပျော်ပါးသည်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "テーブル",
+    "reading": "テーブル",
+    "meaningEN": "table",
+    "meaningMM": "စားပွဲ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "お皿",
+    "reading": "おさら",
+    "meaningEN": "plate",
+    "meaningMM": "ပန်းကန်ပြား",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "箸",
+    "reading": "はし",
+    "meaningEN": "chopsticks",
+    "meaningMM": "တူ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "掃除",
+    "reading": "そうじ",
+    "meaningEN": "cleaning",
+    "meaningMM": "သန့်ရှင်းရေး",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "明るい",
+    "reading": "あかるい",
+    "meaningEN": "bright",
+    "meaningMM": "တောက်ပသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "暗い",
+    "reading": "くらい",
+    "meaningEN": "dark",
+    "meaningMM": "မှောင်သော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "今日",
+    "reading": "きょう",
+    "meaningEN": "today",
+    "meaningMM": "ယနေ့",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "泳ぎます",
+    "reading": "およぎます",
+    "meaningEN": "swim",
+    "meaningMM": "ရေကူးသည်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "度",
+    "reading": "ど",
+    "meaningEN": "degree (counter)",
+    "meaningMM": "ဒီဂရီ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "番",
+    "reading": "ばん",
+    "meaningEN": "number (counter)",
+    "meaningMM": "နံပါတ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "グラム",
+    "reading": "グラム",
+    "meaningEN": "gram",
+    "meaningMM": "ဂရမ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "駅",
+    "reading": "えき",
+    "meaningEN": "station",
+    "meaningMM": "ဘူတာ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "大使館",
+    "reading": "たいしかん",
+    "meaningEN": "embassy",
+    "meaningMM": "သံရုံး",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "写真",
+    "reading": "しゃしん",
+    "meaningEN": "photograph",
+    "meaningMM": "ဓာတ်ပုံ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "手紙",
+    "reading": "てがみ",
+    "meaningEN": "letter",
+    "meaningMM": "စာ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "切符",
+    "reading": "きっぷ",
+    "meaningEN": "ticket",
+    "meaningMM": "လက်မှတ်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "うるさい",
+    "reading": "うるさい",
+    "meaningEN": "noisy",
+    "meaningMM": "ဆူညံသော",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "テレビ",
+    "reading": "テレビ",
+    "meaningEN": "television",
+    "meaningMM": "ရုပ်မြင်သံကြား",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "曇り",
+    "reading": "くもり",
+    "meaningEN": "cloudy weather",
+    "meaningMM": "မိုးအုံ့သောရာသီဥတု",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "晴れ",
+    "reading": "はれ",
+    "meaningEN": "clear weather",
+    "meaningMM": "သာယာသောရာသီဥတု",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "風",
+    "reading": "かぜ",
+    "meaningEN": "wind",
+    "meaningMM": "လေ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "箱",
+    "reading": "はこ",
+    "meaningEN": "box",
+    "meaningMM": "သေတ္တာ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "りんご",
+    "reading": "りんご",
+    "meaningEN": "apple",
+    "meaningMM": "ပန်းသီး",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "五つ",
+    "reading": "いつつ",
+    "meaningEN": "five",
+    "meaningMM": "ငါးခု",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "六つ",
+    "reading": "むっつ",
+    "meaningEN": "six",
+    "meaningMM": "ခြောက်ခု",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "七つ",
+    "reading": "ななつ",
+    "meaningEN": "seven",
+    "meaningMM": "ခုနစ်ခု",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "眼鏡",
+    "reading": "めがね",
+    "meaningEN": "glasses",
+    "meaningMM": "မျက်မှန်",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "机",
+    "reading": "つくえ",
+    "meaningEN": "desk",
+    "meaningMM": "စားပွဲခုံ",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "側",
+    "reading": "そば",
+    "meaningEN": "near",
+    "meaningMM": "အနီး",
+    "level": "N5",
+    "date": "2017/7"
+  },
+  {
+    "word": "横",
+    "reading": "よこ",
+    "meaningEN": "side",
+    "meaningMM": "ဘေး",
+    "level": "N5",
+    "date": "2017/7"
+  }
+]

@@ -1,0 +1,39 @@
+{
+  "name": "jlpt-burmese-mobile",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start --offline",
+    "start:usb": "set \"EXPO_NO_DEPENDENCY_VALIDATION=true\" && expo start --localhost",
+    "android": "expo start --offline --android",
+    "ios": "expo start --offline --ios",
+    "web": "expo start --offline --web",
+    "sync-data": "node scripts/copy-assets.mjs",
+    "validate-data": "node scripts/validate-data.mjs"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "@react-navigation/bottom-tabs": "^7.2.2",
+    "@react-navigation/native": "^7.2.2",
+    "@react-navigation/native-stack": "^7.14.12",
+    "expo": "~54.0.33",
+    "expo-linking": "~8.0.12",
+    "expo-status-bar": "~3.0.9",
+    "lucide-react-native": "^1.49.0",
+    "react": "19.1.0",
+    "react-dom": "19.1.0",
+    "react-native": "0.81.5",
+    "react-native-gesture-handler": "~2.28.0",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "react-native-svg": "^15.15.4",
+    "react-native-web": "^0.21.0",
+    "react-native-webview": "13.13.2"
+  },
+  "devDependencies": {
+    "@types/react": "~19.1.0",
+    "@types/react-native": "^0.72.8",
+    "typescript": "~5.9.2"
+  },
+  "private": true
+}
