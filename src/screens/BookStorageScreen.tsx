@@ -7,7 +7,7 @@ export default function BookStorageScreen() {
   return (
     <RemotePage
       url={BOOK_STORAGE_URL}
-      title="Book storage"
+      title="Free book"
       description="This page lists downloadable Japanese study books, old JLPT questions, and additional learning resources. It requires an internet connection."
     />
   );

@@ -68,7 +68,7 @@ function TabNavigator() {
       <Tab.Screen
         name="SearchTab"
         component={SearchScreen}
-        options={{ title: 'Search', headerTitle: 'Grammar Search' }}
+        options={{ title: 'Search', headerTitle: 'Search' }}
       />
       <Tab.Screen
         name="SettingsTab"
@@ -108,9 +108,8 @@ export default function App() {
           <Stack.Screen name="Reading" component={ReadingScreen} options={{ title: 'Reading' }} />
           <Stack.Screen name="OldVocab" component={OldVocabScreen} options={{ title: 'Old exam vocab' }} />
           <Stack.Screen name="KanjiGame" component={KanjiGameScreen} options={{ title: 'Kanji game' }} />
-          <Stack.Screen name="BookStorage" component={BookStorageScreen} options={{ title: 'Book storage' }} />
+          <Stack.Screen name="BookStorage" component={BookStorageScreen} options={{ title: 'Free book' }} />
           <Stack.Screen name="JLPTWebView" component={JLPTWebViewScreen} options={{ title: 'JLPT Mock Exam' }} />
-          <Stack.Screen name="GrammarSearch" component={SearchScreen} options={{ title: 'Grammar Search' }} />
           <Stack.Screen name="About" component={AboutScreen} options={{ title: 'About' }} />
         </Stack.Navigator>
       </NavigationContainer>

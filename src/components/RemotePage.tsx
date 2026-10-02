@@ -80,7 +80,7 @@ export default function RemotePage({ url, title, description }: Props) {
         <iframe
           key={reloadKey}
           src={url}
-          style={[styles.iframe, isLoading && styles.hidden] as any}
+          style={{ ...styles.iframe, ...(isLoading ? styles.hidden : {}) } as any}
           title={title}
           frameBorder="0"
           allow="fullscreen"

@@ -11,7 +11,6 @@ export type RootStackParamList = {
   Website: undefined;
   BookStorage: undefined;
   JLPTWebView: undefined;
-  GrammarSearch: undefined;
   Search: undefined;
   Settings: undefined;
 };
