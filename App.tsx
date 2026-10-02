@@ -17,6 +17,7 @@ import KanjiGameScreen from './src/screens/KanjiGameScreen';
 import JLPTWebViewScreen from './src/screens/JLPTWebViewScreen';
 import AboutScreen from './src/screens/AboutScreen';
 import WebsiteScreen from './src/screens/WebsiteScreen';
+import BookStorageScreen from './src/screens/BookStorageScreen';
 import SearchScreen from './src/screens/SearchScreen';
 import SettingsScreen from './src/screens/SettingsScreen';
 import { colors } from './src/theme';
@@ -107,6 +108,7 @@ export default function App() {
           <Stack.Screen name="Reading" component={ReadingScreen} options={{ title: 'Reading' }} />
           <Stack.Screen name="OldVocab" component={OldVocabScreen} options={{ title: 'Old exam vocab' }} />
           <Stack.Screen name="KanjiGame" component={KanjiGameScreen} options={{ title: 'Kanji game' }} />
+          <Stack.Screen name="BookStorage" component={BookStorageScreen} options={{ title: 'Book storage' }} />
           <Stack.Screen name="JLPTWebView" component={JLPTWebViewScreen} options={{ title: 'JLPT Mock Exam' }} />
           <Stack.Screen name="GrammarSearch" component={SearchScreen} options={{ title: 'Grammar Search' }} />
           <Stack.Screen name="About" component={AboutScreen} options={{ title: 'About' }} />
