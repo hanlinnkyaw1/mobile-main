@@ -127,7 +127,7 @@ const styles = StyleSheet.create({
   iframe: { flex: 1, width: '100%', borderWidth: 0 },
   hidden: { opacity: 0 },
   loading: {
-    ...StyleSheet.absoluteFillObject,
+    ...StyleSheet.absoluteFill,
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: colors.bg,

@@ -58,7 +58,7 @@ function TabNavigator() {
       <Tab.Screen
         name="HomeTab"
         component={HomeScreen}
-        options={{ title: 'Home', headerTitle: 'JLPT Burmese' }}
+        options={{ title: 'Home', headerShown: false }}
       />
       <Tab.Screen
         name="WebsiteTab"
